@@ -1,0 +1,24 @@
+{
+  "name": "ejerciciopaginadinamica",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "debug": "SET DEBUG=ejerciciopaginadinamica:* & npx nodemon --inspect ./bin/www"
+  },
+  "dependencies": {
+    "cont": "^1.0.3",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "hbs": "~4.0.4",
+    "http-errors": "~1.6.3",
+    "mongoose": "^6.3.2",
+    "mongoose-delete": "^0.5.4",
+    "morgan": "~1.9.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

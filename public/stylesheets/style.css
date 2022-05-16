@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.col {
+width: 12%;
+border-radius: 10px;
+border: salmon solid 1px;
+}
+
+#volver {
+  text-decoration: none;
+}
+
+.col6 {
+  width: 66%;
+}
+
+header img{
+  border-radius: 50px;
+  width: 20%;
+  opacity: 0.9;
+  margin-top: 10px;
+}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #e8e3d1;
+}
+
+.center {
+  text-align: center;
+  height: 100px;
+}
+
+header {
+  margin-bottom: 100px;
+}
+
+main{
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 17px;
+  background: linear-gradient(to right, rgba(207, 207, 207, 0), rgb(85 85 135));
+  text-align: center;
+  margin: 0px 150px;
+  height: 300px; 
+  padding: 40px;
+  border-radius: 10px;
+}
+
+main form ul {
+  margin-top: 40px;
+}
+
+main form ul li input {
+  border-radius: 15px;
+  padding: 5px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin: 10px;
+}
+
+.button {
+  float: left;
+  margin: 20px 166px;
+  padding: 10px;
+}
+
+.button2 {
+  margin: 20px 166px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.intButton{
+  padding: 5px;
+}
+
+.queryButton{
+  margin: 200px auto;
+  padding: 5px;
+}
+
+.createGame{
+  margin: 20px auto;
+  padding: 5px 20px;
+}
+
+footer {
+  font-family:Arial, Helvetica, sans-serif ;
+  padding: 25px 0 0 125px;
+  width: 80%;
+  display: inline-block;
+  text-align: center;
+}
+
+footer ul li a img {
+  max-width: 30%;
+  width: 150px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+a {
+  color: #00b7ff;
+}
